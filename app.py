@@ -8,7 +8,7 @@ app = Dash(__name__, external_stylesheets=['https://codepen.io/chriddyp/pen/bWLw
 server = app.server
 
 app.layout = html.Div([
-        html.H1("Flights Dashboard", 
+        html.H1("Flight Delays Dashboard", 
             style = {'color': 'red', 'text-align': 'center'}
             ),
         html.Div([
