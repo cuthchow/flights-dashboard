@@ -4,7 +4,7 @@ import altair as alt
 from dash import Dash, dcc, html, Input, Output, dash_table
 import plotly.express as px
 
-df = pd.read_csv('clean_data.csv')
+df = pd.read_csv('../data/clean_data.csv')
 
 app = Dash(__name__, external_stylesheets=['https://codepen.io/chriddyp/pen/bWLwgP.css', '/style.css'])
 server = app.server
@@ -133,7 +133,9 @@ styling_template = {'title': {'font': {'size': 25, 'family': 'helvetica', 'color
 map_styles = {
     'title': {'x': 0.1, 'pad':{'b': 10}},
     'geo': {'bgcolor': 'rgba(0,0,0,0)',
-            'framecolor': 'rgba(0,0,0,0)'},
+            'framecolor': 'rgba(0,0,0,0)', 
+            'landcolor': '#fcf7e1', 
+            'lakecolor': '#97c7f7'},
     'coloraxis': {
         'colorbar': {'title': {'font': {'color': 'white', 'family': 'helvetica'}},
                     'tickfont': {'color': 'white', 'family': 'helvetica'}}

@@ -1,8 +1,0 @@
-pandas
-numpy
-gunicorn
-altair
-dash
-dash_bootstrap_components
-plotly
-vega_datasets
