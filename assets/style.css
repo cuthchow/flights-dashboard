@@ -1,0 +1,25 @@
+body {
+    background-color: #332542;
+}
+
+h5 {
+    color: white;
+}
+
+.rc-slider-dot-active {
+    border-color: red;
+}
+
+.rc-slider-track {
+    background-color: red;
+}
+
+.rc-slider-handle {
+    background-color: red;
+    border: red;
+}
+
+.rc-slider-handle-dragging{
+    border-color: red;
+    box-shadow: red;
+}
