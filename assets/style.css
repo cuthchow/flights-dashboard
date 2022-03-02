@@ -1,25 +1,65 @@
 body {
-    background-color: #332542;
+    background-color: #322c4a;
 }
 
-h5 {
+h5, h2 {
     color: white;
 }
 
 .rc-slider-dot-active {
-    border-color: red;
+    border-color: #B33951;
 }
 
 .rc-slider-track {
-    background-color: red;
+    background-color: #B33951;
 }
 
 .rc-slider-handle {
-    background-color: red;
-    border: red;
+    background-color: #B33951;
+    border: #B33951;
 }
 
 .rc-slider-handle-dragging{
-    border-color: red;
-    box-shadow: red;
+    border-color: #B33951;
+    box-shadow: #B33951;
+}
+
+table {
+    border-radius: 3px;
+}
+
+td {
+    text-align: center !important;
+    color: white !important;
+    font-size: 12px;
+}
+
+td {
+    /* background-color: #96293F !important; */
+    color: white !important;
+    border: 0px !important;
+    border-bottom: 2px solid white !important;
+    /* border-right: 1px solid white !important; */
+    text-align: center !important;
+}
+
+.custom-tab {
+    color: white;
+    font-size: 20px;
+    font-family: "helvetica";
+    background-color: #322c4a !important;
+    border-radius: 7px 7px 0px 0px;
+    border: 0px !important;
+}
+
+.custom-tab--selected {
+    color: #B33951 !important;
+    /* border-left: 1px solid lightgrey !important; */
+    /* border-right: 1px solid lightgrey !important; */
+    border-top: 3px solid #B33951 !important;
+    border-bottom: 2px solid white !important;
+}
+
+.next-page, .previous-page, .first-page, .last-page, .page-number {
+    color: white;
 }
